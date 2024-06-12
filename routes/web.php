@@ -25,19 +25,30 @@ Route::get('/', function () {
     return view('index',compact('title'));
 });
 
-Route::get('solutions', function () {
-    $title = "Solutions";
-    return view('solutions',compact('title'));
+
+Route::get('integrated-automation', function () {
+    $title = "Integrated Automation";
+    return view('integrated-automation',compact('title'));
+});
+Route::get('lighting-control', function () {
+    $title = "Lighting Control";
+    return view('lighting-control',compact('title'));
+});
+Route::get('bespoke-audio-visual', function () {
+    $title = "Bespoke Audio Visual";
+    return view('bespoke-audio-visual',compact('title'));
+});
+Route::get('home-cinema', function () {
+    $title = "Home Cinema";
+    return view('home-cinema',compact('title'));
 });
 
-Route::get('products', function () {
-    $title = "Products";
-    return view('products',compact('title'));
+Route::get('services-amc-for-home-automation', function () {
+    $title = "Services Amc for Home Automation";
+    return view('services-amc-for-home-automation',compact('title'));
 });
-Route::get('about-us', function () {
-    $title = "About us";
-    return view('about-us',compact('title'));
-});
+
+
 
 
 Route::get('contact-us', function () {
@@ -59,4 +70,14 @@ Route::post('contact-us', 'App\Http\Controllers\PostSubmit@submitContactForm')->
 Route::post('quote', 'App\Http\Controllers\PostSubmit@submitQuoteForm')->name('quote-email');
 
 
+
+// Route::get('solutions', function () {
+//     $title = "Solutions";
+//     return view('solutions',compact('title'));
+// });
+
+// Route::get('products', function () {
+//     $title = "Products";
+//     return view('products',compact('title'));
+// });
 

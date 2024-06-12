@@ -6,16 +6,18 @@
             <div class="col-lg-12 top-content">
                 <div class="row">
                     <div class="col-lg-7 d-flex align-items-end section-content-1">
-                        <div class="">
+                        <div class="p-3">
+
                             <h1 class="fw-semibold" data-aos="fade-right" data-aos-delay="300">
                                 <span class="text-black-50 fw-normal">
-                                    Transforming Industries
+                                    Region’s
                                 </span>
                                 <span class="fw-bold">
-                                    IIOT, Automation, Electrical &
+                                    Best Smart Home & Home Cinema
                                 </span>
                                 <span class="text-black-50 fw-normal">
-                                    Instrumentation Solutions</span>
+                                    Company
+                                </span>
                             </h1>
                         </div>
                     </div>
@@ -24,14 +26,14 @@
                             <img decoding="async" width="50%" class=""
                                 src="{{ asset('assets/images/Screenshot-2023-09-27-at-1.42.32-PM.png') }}">
                         </div>
-                        <div class="text-end mt-5">
+                        <div class="text-end mt-5 p-3">
                             <h3 class="text-start" data-aos="fade-left" data-aos-delay="400">
-                                <span class="text-black-50 "></span> Redefining industrial standards with unparalleled
-                                <span class="text-black-50 ">quality, accuracy, and precision </span>in every process.
-                            </h3>
+
+                                <span class="text-black-50 ">We make sure your </span>home is simple to live-in
+                                <span class="text-black-50 ">with our bespoke design thoughts</span>
                         </div>
                     </div>
-                     @include('social-media-links')
+                    @include('social-media-links')
                 </div>
             </div>
         </div>
@@ -41,20 +43,12 @@
     <!-- Service section -->
     <section class="pt-5 service-section">
         <div class="container-fluid p-0">
-            <div class="container pb-3 ">
+            <div class="container pb-3 home-tile-section ">
                 <ul class="nav nav-pills px-5 mb-3 d-flex justify-content-between position-relative" id="pills-tab"
                     role="tablist">
-                    <div class="home-hero__s-border"><svg class="home-hero__s-svg" width="1000" height="61"
-                            viewBox="0 0 1000 61" fill="none" xmlns="http://www.w3.org/2000/svg"
-                            preserveAspectRatio="none">
-                            <path class="home-hero__s-path" d="M1000 1H525.904H51.8074C23.7472 1 1 18.9086 1 41.0001L1 61"
-                                stroke="black" stroke-opacity="0.3" style="stroke-dashoffset: 0px;"></path>
-                        </svg><svg class="home-hero__s-svg" width="1000" height="61" viewBox="0 0 1000 61"
-                            fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
-                            <path class="home-hero__s-path"
-                                d="M-2.8789e-05 1H474.096H948.193C976.253 1 999 18.9086 999 41.0001L999 61" stroke="black"
-                                stroke-opacity="0.3" style="stroke-dashoffset: 0px;"></path>
-                        </svg></div>
+                    {{-- <div class="home-hero__s-border">
+                      
+                    </div> --}}
                     <li data-aos="zoom-in" data-aos-delay="300"
                         class="nav-item col-lg-3 col-md-6 col-12 border-0 border-end d-flex justify-content-center"
                         role="presentation">
@@ -62,10 +56,10 @@
                             data-bs-target="#pills-integrated" type="button" role="tab" aria-controls="pills-home"
                             aria-selected="true">
                             <img src="{{ asset('assets/images/icon-01.svg') }}" class="pe-2 w-10">
-                            Industrial Automation
+                            Integrated Automation
                         </button>
                     </li>
-                   
+
                     <li data-aos="zoom-in" data-aos-delay="300"
                         class="nav-item col-lg-3 col-md-6 col-12 border-0 border-end d-flex justify-content-center"
                         role="presentation">
@@ -73,27 +67,26 @@
                             data-bs-target="#pills-bespoke" type="button" role="tab" aria-controls="pills-bespoke"
                             aria-selected="false">
                             <img src="{{ asset('assets/images/icon-02.svg') }}" class="pe-2 w-10">
-                            Industrial IOT
+                            Lighting Control
                         </button>
                     </li>
                     <li data-aos="zoom-in" data-aos-delay="300"
                         class="nav-item col-lg-3 col-md-6 col-12 border-0 border-end  d-flex justify-content-center"
                         role="presentation">
-                        <button class="nav-link" id="pills-cinema-tab" data-bs-toggle="pill"
-                            data-bs-target="#pills-cinema" type="button" role="tab" aria-controls="pills-cinema"
-                            aria-selected="false">
+                        <button class="nav-link" id="pills-cinema-tab" data-bs-toggle="pill" data-bs-target="#pills-cinema"
+                            type="button" role="tab" aria-controls="pills-cinema" aria-selected="false">
                             <img src="{{ asset('assets/images/icon-03.svg') }}" class="pe-2 w-10">
-                            Electrical Supplies
+                            Bespoke Audio Visual
                         </button>
                     </li>
-                     <li data-aos="zoom-in" data-aos-delay="300"
+                    <li data-aos="zoom-in" data-aos-delay="300"
                         class="nav-item col-lg-3 col-md-6 col-12 border-0 d-flex justify-content-center"
                         role="presentation">
                         <button class="nav-link" id="pills-lighting-tab" data-bs-toggle="pill"
                             data-bs-target="#pills-lighting" type="button" role="tab" aria-controls="pills-lighting"
                             aria-selected="false">
                             <img src="{{ asset('assets/images/icon-04.svg') }}" class="pe-2 w-10">
-                           Automation & Controls
+                            Home Cinema
                         </button>
                     </li>
                 </ul>
@@ -102,23 +95,23 @@
                 <div class="tab-pane fade show active" id="pills-integrated" role="tabpanel"
                     aria-labelledby="pills-integrated-tab">
                     <img decoding="async" data-aos="fade-up" data-aos-delay="100" class="w-100"
-                        src="{{ asset('assets/images/01.jpg') }}" alt="Integrated Automation">
+                        src="https://www.gadgeon.ae/wp-content/uploads/2024/01/integrated-automation-1-min.jpeg" alt="Integrated Automation">
                     <div class="shadow-custome"></div>
                 </div>
-                
+
                 <div class="tab-pane fade" id="pills-bespoke" role="tabpanel" aria-labelledby="pills-bespoke-tab">
                     <img decoding="async" data-aos="fade-up" data-aos-delay="100" class="w-100"
-                        src="{{ asset('assets/images/02.jpg') }}" alt="sfd">
+                        src="https://www.gadgeon.ae/wp-content/uploads/2023/10/bnr1.jpg" alt="sfd">
                     <div class="shadow-custome"></div>
                 </div>
                 <div class="tab-pane fade" id="pills-cinema" role="tabpanel" aria-labelledby="pills-cinema-tab">
                     <img decoding="async" data-aos="fade-up" data-aos-delay="100" class="w-100"
-                        src="{{ asset('assets/images/04.jpg') }}" alt="sfd">
+                        src="https://www.gadgeon.ae/wp-content/uploads/2023/10/img2-scaled-1.jpg" alt="sfd">
                     <div class="shadow-custome"></div>
                 </div>
                 <div class="tab-pane fade" id="pills-lighting" role="tabpanel" aria-labelledby="pills-lighting-tab">
                     <img decoding="async" data-aos="fade-up" data-aos-delay="100" class="w-100"
-                        src="{{ asset('assets/images/03.jpg') }}" alt="sfd">
+                        src="https://www.gadgeon.ae/wp-content/uploads/2023/10/hc5.jpg" alt="sfd">
                     <div class="shadow-custome"></div>
                 </div>
 
@@ -130,10 +123,11 @@
         <div class="container">
             <div class="col-lg-12">
                 <div class="col-lg-10 mx-auto text-center py-5">
-                    <h1 class="fw-normal" data-aos="fade-up" data-aos-delay="500">We provide tailored digital solutions
-                        for factories and infrastructures of all
-                        sizes, specializing in IIOT, digitalization, and automation for manufacturing and commercial
-                        sectors.</h1>
+                    <h1 class="fw-normal" data-aos="fade-up" data-aos-delay="500">
+                        Customize and store your preferred temperature,
+                        lighting, ambiance and mood in any room to
+                        set it up with a tap of your finger
+                    </h1>
                 </div>
             </div>
         </div>
@@ -143,44 +137,46 @@
         <div class="container-gallery-mobile ">
 
             <div class="single-panel" data-aos="fade-up" data-aos-delay="300">
-                <img class="gallery-img-2" src='{{ asset('assets/images/banner1.jpg') }}'>
+                <img class="gallery-img-2" src='https://gadgeon.ae/wp-content/uploads/2024/01/home-cinema-new.jpg'>
                 <div class="slider-overlay-text-2">
-                    <h2>Designing And Implementing
-                        Robust Industrial IoT Solutions</h2>
-                    <p class="d-none d-lg-block">Crafting robust IIoT solutions, leveraging sensor tech, data analytics.
+                    <h2>Home Cinema</h2>
+                    <p class="d-none d-lg-block">Three Essentials of a Perfect Home Cinema Experience
                     </p>
                 </div>
                 <div class="shadow-custome"></div>
             </div>
 
             <div class="single-panel" data-aos="fade-up" data-aos-delay="300">
-                <img class="gallery-img-2" src="{{ asset('assets/images/banner2.jpg') }}">
+                <img class="gallery-img-2" src="https://gadgeon.ae/wp-content/uploads/2024/01/automation.jpg">
                 <div class="slider-overlay-text-2">
-                    <h2>Advanced Industrial
-                        Automation Solutions</h2>
-                    <p class="d-none d-lg-block">GADGEON advances manufacturing with automation expertise in PLCs, SCADA,
-                        HMI, and robotics.</p>
+                    <h2>Integrated Automation</h2>
+                    <p class="d-none d-lg-block">
+                        Connect and control smart devices and systems within your home 
+                    </p>
                 </div>
 
                 <div class="shadow-custome"></div>
             </div>
 
             <div class="single-panel" data-aos="fade-up" data-aos-delay="300">
-                <img class="gallery-img-2" src='{{ asset('assets/images/banner3.jpg') }}'>
+                <img class="gallery-img-2" src='https://gadgeon.ae/wp-content/uploads/2024/01/Lighting-Control.jpg'>
                 <div class="slider-overlay-text-2">
-                    <h2>Providing Comprehensive Digitalization services</h2>
-                    <p class="d-none d-lg-block">Aiding businesses in digital transformation, offering comprehensive
-                        digitalization services.
+                    <h2>Lighting Control</h2>
+                    <p class="d-none d-lg-block">
+                        Smart lighting control offers convenience, energy savings, 
+                        customization, and enhanced living experiences.
                     </p>
                 </div>
 
                 <div class="shadow-custome"></div>
             </div>
             <div class="single-panel" data-aos="fade-up" data-aos-delay="300">
-                <img class="gallery-img-2" src='{{ asset('assets/images/banner4.jpg') }}'>
+                <img class="gallery-img-2" src='https://gadgeon.ae/wp-content/uploads/2024/01/Bespoke-Audio-Visual.jpg'>
                 <div class="slider-overlay-text-2">
-                    <h2>Top-tier industrial spares from trusted manufacturers for quality assurance.</h2>
-                    <p class="d-none d-lg-block">High-quality industrial spares, components from trusted manufacturers.</p>
+                    <h2>Bespoke Audio Visual</h2>
+                    <p class="d-none d-lg-block">
+                        Make your leisure time more enjoyable, flexible, and user-friendly.
+                    </p>
                 </div>
 
                 <div class="shadow-custome"></div>
@@ -193,35 +189,45 @@
             <div class="pined-inner">
                 <ul class="pined-list">
                     <li class="position-relative">
-                        <img src="{{url('assets/images/banner1.jpg')}}" alt="" />
+                        <img src="https://gadgeon.ae/wp-content/uploads/2024/01/home-cinema-new.jpg" alt="" />
                         <div class="slider-overlay-text">
-                           <h2>Designing And Implementing
-                                Robust Industrial IoT Solutions</h2>
-                            <p class="d-none d-lg-block">Crafting robust IIoT solutions, leveraging sensor tech, data analytics.</p>
+                            <h2>Home Cinema</h2>
+                            <p class="d-none d-lg-block">Three Essentials of a Perfect Home Cinema Experience
+                            </p>
+     
                         </div>
                     </li>
                     <li class="position-relative">
-                        <img src="{{url('assets/images/banner2.jpg')}}" alt="" />
+                        <img src="https://gadgeon.ae/wp-content/uploads/2024/01/automation.jpg" alt="" />
                         <div class="slider-overlay-text">
-                            <h2>Advanced Industrial Automation Solutions</h2>
-                            <p class="d-none d-lg-block">GADGEON advances manufacturing with automation expertise in PLCs, SCADA, HMI, and robotics.</p>
+                            <h2>Integrated Automation</h2>
+                            <p class="d-none d-lg-block">
+                                Connect and control smart devices and systems within your home 
+                            </p>
+       
                         </div>
                     </li>
                     <li class="position-relative">
-                        <img src="{{url('assets/images/banner3.jpg')}}" alt="" />
+                        <img src="https://gadgeon.ae/wp-content/uploads/2024/01/Lighting-Control.jpg" alt="" />
                         <div class="slider-overlay-text">
-                            <h2>Providing Comprehensive Digitalization services</h2>
-                            <p class="d-none d-lg-block">Aiding businesses in digital transformation, offering comprehensive digitalization services.</p>
+                            <h2>Lighting Control</h2>
+                            <p class="d-none d-lg-block">
+                                Smart lighting control offers convenience, energy savings, 
+                                customization, and enhanced living experiences.
+                            </p>
+       
                         </div>
                     </li>
                     <li class="position-relative">
-                        <img src="{{url('assets/images/banner4.jpg')}}" alt="" />
+                        <img src="https://gadgeon.ae/wp-content/uploads/2024/01/Bespoke-Audio-Visual.jpg" alt="" />
                         <div class="slider-overlay-text">
-                            <h2>Top-tier industrial spares from trusted manufacturers for quality assurance.</h2>
-                            <p class="d-none d-lg-block">High-quality industrial spares, components from trusted manufacturers.</p>
+                            <h2>Bespoke Audio Visual</h2>
+                            <p class="d-none d-lg-block">
+                                Make your leisure time more enjoyable, flexible, and user-friendly.
+                            </p>
                         </div>
                     </li>
-                    
+
                 </ul>
             </div>
         </div>
@@ -262,17 +268,27 @@
                             <h2 class="ps-4 text-light fw-bold display-5 mb-5 sub-title" data-aos="fade-up"
                                 data-aos-delay="300">Expertise</h2>
                             <div class="border-0 border-start mt-5">
+                                
+
+
+
+
                                 <ul data-aos="fade-up" data-aos-delay="300">
-                                    <li class="mt-4"> <span class="fw-semibold h4 text-light">Designing robust IIoT
-                                            solutions.</span></li>
-                                    <li class="mt-4"> <span class="fw-semibold h4 text-light">Electrical &
-                                            instrumentation solutions.</span></li>
-                                    <li class="mt-4"> <span class="fw-semibold h4 text-light">Industrial automation
-                                            solutions</span></li>
-                                    <li class="mt-4"> <span class="fw-semibold h4 text-light">Offering full
-                                            digitalization services.</span></li>
-                                    <li class="mt-4"> <span class="fw-semibold h4 text-light">Industrial spares from
-                                            trusted manufacturers.</span></li>
+                                    <li class="mt-4"> <span class="fw-semibold h4 text-light">
+                                        Design
+                                        </span></li>
+                                    <li class="mt-4"> <span class="fw-semibold h4 text-light">
+                                        Complete System Supply
+                                        </span></li>
+                                    <li class="mt-4"> <span class="fw-semibold h4 text-light">
+                                        Programming & Commissioning    
+                                    </span></li>
+                                    <li class="mt-4"> <span class="fw-semibold h4 text-light">
+                                        Upgradation & Troubleshooting
+                                    </span></li>
+                                    <li class="mt-4"> <span class="fw-semibold h4 text-light">
+                                        Annual Maintenance
+                                    </span></li>
                                 </ul>
                             </div>
                         </div>
@@ -283,80 +299,80 @@
 
     </section>
     <!-- feature-projects section -->
-    <!--<section class="feature-projects">-->
+    <section class="feature-projects">
 
-    <!--    <div class="bg-dark">-->
-    <!--        <div class="container">-->
-    <!--            <div class="col-lg-12 py-5">-->
-    <!--                <h2 class="text-light" data-aos="fade-up" data-aos-delay="300">Featured Projects</h2>-->
-    <!--                <p class="text-light" data-aos="fade-up" data-aos-delay="500">Different projects we have delivered-->
-    <!--                </p>-->
-    <!--            </div>-->
-    <!--        </div>-->
-    <!--        <div class="col-lg-12">-->
-    <!--            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">-->
-    <!--                <div class="carousel-indicators">-->
-    <!--                    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="0"-->
-    <!--                        class="active" aria-current="true" aria-label="Slide 1"></button>-->
-    <!--                    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="1"-->
-    <!--                        aria-label="Slide 2"></button>-->
-    <!--                    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="2"-->
-    <!--                        aria-label="Slide 3"></button>-->
-    <!--                    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="3"-->
-    <!--                        aria-label="Slide 4"></button>-->
+        <div class="bg-dark">
+            <div class="container">
+                <div class="col-lg-12 py-5 text-center">
+                    <h2 class="text-light" data-aos="fade-up" data-aos-delay="300">Featured Projects</h2>
+                    <p class="text-light" data-aos="fade-up" data-aos-delay="500">Different projects we have delivered
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-12">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
 
-    <!--                </div>-->
-    <!--                <div class="carousel-inner">-->
-    <!--                    <div class="carousel-item active">-->
-    <!--                        <img src="https://www.gadgeon.ae/wp-content/uploads/2024/01/ethihad-rail.jpg"-->
-    <!--                            class="d-block w-100" alt="...">-->
-    <!--                        <div class="carousel-caption ">-->
-    <!--                            <h1>Transforming the exterior Facade Lighting control programming. <br>-W Hotel Marina-->
-    <!--                            </h1>-->
-    <!--                        </div>-->
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://www.gadgeon.ae/wp-content/uploads/2024/01/ethihad-rail.jpg"
+                                class="d-block w-100" alt="...">
+                            <div class="carousel-caption ">
+                                <h1>Transforming the exterior Facade Lighting control programming. <br>-W Hotel Marina
+                                </h1>
+                            </div>
 
-    <!--                    </div>-->
-    <!--                    <div class="carousel-item">-->
-    <!--                        <img src="https://www.gadgeon.ae/wp-content/uploads/2024/01/yoatch.jpg" class="d-block w-100"-->
-    <!--                            alt="...">-->
-    <!--                        <div class="carousel-caption ">-->
-    <!--                            <h1>KNX Lighting Control - Etihad Rail Al Faya Depot.</h1>-->
-    <!--                        </div>-->
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://www.gadgeon.ae/wp-content/uploads/2024/01/yoatch.jpg" class="d-block w-100"
+                                alt="...">
+                            <div class="carousel-caption ">
+                                <h1>KNX Lighting Control - Etihad Rail Al Faya Depot.</h1>
+                            </div>
 
-    <!--                    </div>-->
-    <!--                    <div class="carousel-item">-->
-    <!--                        <img src="https://www.gadgeon.ae/wp-content/uploads/2024/01/dine.jpg" class="d-block w-100"-->
-    <!--                            alt="...">-->
-    <!--                        <div class="carousel-caption ">-->
-    <!--                            <h1>Customized Lighting Control - Private Yacht - Dubai</h1>-->
-    <!--                        </div>-->
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://www.gadgeon.ae/wp-content/uploads/2024/01/dine.jpg" class="d-block w-100"
+                                alt="...">
+                            <div class="carousel-caption ">
+                                <h1>Customized Lighting Control - Private Yacht - Dubai</h1>
+                            </div>
 
-    <!--                    </div>-->
-    <!--                    <div class="carousel-item">-->
-    <!--                        <img src="https://www.gadgeon.ae/wp-content/uploads/2024/01/skyline.jpg" class="d-block w-100"-->
-    <!--                            alt="...">-->
-    <!--                        <div class="carousel-caption ">-->
-    <!--                            <h1>Bespoke Audio & Lighting - Luxury Dining - Dubai Mall</h1>-->
-    <!--                        </div>-->
-    <!--                    </div>-->
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://www.gadgeon.ae/wp-content/uploads/2024/01/skyline.jpg" class="d-block w-100"
+                                alt="...">
+                            <div class="carousel-caption ">
+                                <h1>Bespoke Audio & Lighting - Luxury Dining - Dubai Mall</h1>
+                            </div>
+                        </div>
 
-    <!--                </div>-->
-    <!--                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"-->
-    <!--                    data-bs-slide="prev">-->
-    <!--                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>-->
-    <!--                    <span class="visually-hidden">Previous</span>-->
-    <!--                </button>-->
-    <!--                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"-->
-    <!--                    data-bs-slide="next">-->
-    <!--                    <span class="carousel-control-next-icon" aria-hidden="true"></span>-->
-    <!--                    <span class="visually-hidden">Next</span>-->
-    <!--                </button>-->
-    <!--            </div>-->
-    <!--        </div>-->
-    <!--    </div>-->
-    <!--</section>-->
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- feature-products section -->
-    <section class="py-5">
+    <section class="py-5 d-none">
         <div class="container">
             <div class="col-lg-12">
                 <div class="text-center">
@@ -366,19 +382,21 @@
             </div>
             <div class="pt-5">
                 <div class="col-lg-12">
-      
+
                     <div class="pdct-slider">
                         <div class="pdct-slider__wrp1 swiper-wrapper1">
                             <div class="pdct-slider__item swiper-slide">
                                 <div class="pdct-slider__img">
 
-                                    <img src="{{ asset('assets/images/products/product1.png') }}"
-                                        alt="">
+                                    <img src="{{ asset('assets/images/products/product1.png') }}" alt="">
                                 </div>
                                 <div class="pdct-slider__content">
                                     <div class="pdct-slider__title">Eaton - Powering Business Worldwide</div>
-                                    <div class="pdct-slider__text">We’re a power management company, but more importantly, what we do improves the quality of life and the environment. Our products, technologies and services make a difference in the world.</div>
-                                    <a href="https://www.eaton.com/in/" target="_new" class="pdct-slider__button">READ MORE</a>
+                                    <div class="pdct-slider__text">We’re a power management company, but more importantly,
+                                        what we do improves the quality of life and the environment. Our products,
+                                        technologies and services make a difference in the world.</div>
+                                    <a href="https://www.eaton.com/in/" target="_new" class="pdct-slider__button">READ
+                                        MORE</a>
                                 </div>
                             </div>
                         </div>
@@ -389,15 +407,17 @@
 
                             <div class="pdct-slider__item swiper-slide">
                                 <div class="pdct-slider__img right-position order-0 order-lg-2">
-                                    <img src="{{ asset('assets/images/products/product2.png') }}"
-                                        alt="">
+                                    <img src="{{ asset('assets/images/products/product2.png') }}" alt="">
                                 </div>
                                 <div class="pdct-slider__content">
                                     <div class="pdct-slider__title">Masibus Automation And Instrumentation Pvt. Ltd</div>
-                                    <div class="pdct-slider__text">Masibus, a leading industrial automation provider, serves 20,000+ customers across 50 verticals through 8 regional offices and an extensive dealer network.</div>
-                                    <a href="https://www.masibus.co.in/" target="_new" class="pdct-slider__button">READ MORE</a>
+                                    <div class="pdct-slider__text">Masibus, a leading industrial automation provider,
+                                        serves 20,000+ customers across 50 verticals through 8 regional offices and an
+                                        extensive dealer network.</div>
+                                    <a href="https://www.masibus.co.in/" target="_new" class="pdct-slider__button">READ
+                                        MORE</a>
                                 </div>
-                                
+
                             </div>
                         </div>
                     </div>
@@ -406,15 +426,17 @@
                         <div class="pdct-slider__wrp1 swiper-wrapper1">
                             <div class="pdct-slider__item swiper-slide">
                                 <div class="pdct-slider__img">
-                                    <img src="{{ asset('assets/images/products/product3.png') }}"
-                                        alt="">
+                                    <img src="{{ asset('assets/images/products/product3.png') }}" alt="">
                                 </div>
                                 <div class="pdct-slider__content">
                                     <div class="pdct-slider__title">Delpheon- Accelerating IIoT</div>
                                     <div class="pdct-slider__text">
-                                        A flexible and easy to deply Industrial IoT solution development platform, shortens your digital connectivity solution deployment by over 60% with minimum upfront investments. 
+                                        A flexible and easy to deply Industrial IoT solution development platform, shortens
+                                        your digital connectivity solution deployment by over 60% with minimum upfront
+                                        investments.
                                     </div>
-                                    <a href="https://delpheon.io/" target="_new" class="pdct-slider__button">READ MORE</a>
+                                    <a href="https://delpheon.io/" target="_new" class="pdct-slider__button">READ
+                                        MORE</a>
                                 </div>
                             </div>
                         </div>
@@ -424,17 +446,18 @@
                         <div class="pdct-slider__wrp1 swiper-wrapper1">
                             <div class="pdct-slider__item swiper-slide">
                                 <div class="pdct-slider__img right-position order-0 order-lg-2">
-                                    <img src="{{ asset('assets/images/products/product4.png') }}"
-                                        alt="">
+                                    <img src="{{ asset('assets/images/products/product4.png') }}" alt="">
                                 </div>
                                 <div class="pdct-slider__content">
                                     <div class="pdct-slider__title">Phoenix Contact</div>
                                     <div class="pdct-slider__text">
-                                        Phoenix Contact, based in Germany, manufactures industrial automation, interconnection, and interface solutions including terminal blocks, relays, connectors, and more.
+                                        Phoenix Contact, based in Germany, manufactures industrial automation,
+                                        interconnection, and interface solutions including terminal blocks, relays,
+                                        connectors, and more.
                                     </div>
                                 </div>
-                                
-                            </div> 
+
+                            </div>
 
                         </div>
                     </div>
@@ -455,7 +478,7 @@
                 <div class="row">
                     <div class="col-sm-8">
                         <h1 class="text-start section-title">Testimonials </h1>
-                        <p class="section-subtitle" >Global presence in 12 <br>
+                        <p class="section-subtitle">Global presence in 12 <br>
                             years</p>
                     </div><!-- /End col -->
 
@@ -539,8 +562,8 @@
     background-size: cover;">
         <div class="container mt-5">
             <div class="col-10 mx-auto text-center text-light">
-                <h2 class="mb-3 section-title" >Who We Are?</h2>
-                <p > We are a digital technology service provider that offers
+                <h2 class="mb-3 section-title">Who We Are?</h2>
+                <p> We are a digital technology service provider that offers
                     cutting edge solutions to support customers
                     on their digital journeys.Your most trusted partner in multi-system automation. We handle all the
                     technical details leaving you free to experience unparalleled luxury and convenience.</p>
@@ -577,7 +600,7 @@
                                         </g>
                                     </g>
                                 </svg> </span>
-                            <h6 >
+                            <h6>
                                 Commitment to Quality
                             </h6>
                         </div>
@@ -643,7 +666,8 @@
                         </div>
                     </div>
                     <div class="col-lg-12 pt-5 text-center">
-                        <a href="{{url('about-us')}}" class="btn btn-theme2 bg-transparent text-light border-light border rounded-5">About Us
+                        <a href="{{ url('about-us') }}"
+                            class="btn btn-theme2 bg-transparent text-light border-light border rounded-5">About Us
                             <i class="bi bi-arrow-right ms-3 fs-4"></i></a>
                     </div>
                 </div>
@@ -656,13 +680,12 @@
 
 
 @section('scripts')
-
     <script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
     <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
-   <script>
-  window.onbeforeunload = function () {
-  window.scrollTo(0, 0);
-}
+    <script>
+        window.onbeforeunload = function() {
+            window.scrollTo(0, 0);
+        }
         const pinedList = document.querySelector(".pined-list");
         const pinedInner = document.querySelector(".pined-inner");
 
@@ -676,7 +699,5 @@
                 scrub: 1
             }
         });
-
     </script>
-
 @endsection
