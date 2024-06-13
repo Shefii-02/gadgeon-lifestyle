@@ -8,8 +8,9 @@
                     <div class="col-lg-7 d-flex align-items-end">
                         <div >
                             <h1 class="display-5 fw-semibold" style="line-height: 1.3;">
-                                <span class="text-black-50 fw-normal">Empowering factories with customized</span> 
-                                <span class="fw-bold">digital solutions for enhanced productivity</span>
+                                <span class="fw-bold">Explore</span>
+                                <span class="text-black-50 fw-normal">the World of</span> 
+                                <span class="fw-bold">Integrated Technology</span>
                             </h1>
                         </div>
                     </div>
@@ -27,7 +28,7 @@
     </section>
 
     <section class="pt-5 second-section">
-        <img src="{{url('assets/images/pictures/about-image-2.jpg')}}" class="w-100">
+        <img src="https://gadgeon.ae/wp-content/uploads/2023/10/bnr1.jpg" class="w-100">
     </section>
     <section class=''>
         <div class="container" style="py-5">
@@ -35,8 +36,8 @@
                 <div class="col-lg-10 mx-auto  ">
                     <div class="py-5">
                         <h3 class="fw-normal text-center text-muted"  style="line-height: 1.8;">
-                            A full range of products & solutions to
-                            elevate industrial processes, enhance quality, accuracy, and precision across simple to complex operations.
+                            We at Gadgeon help you with the most appropriate technology solutions for
+                            home commercial spaces and industries. One stop for:
                         </h3>
                     </div>
                 </div>
@@ -84,10 +85,7 @@
                         <div class="bg-dark text-light" style="opacity: 0.8;">
                             <div class="p-5">
                                 <p class="mt-2 " style="line-height: 2;">
-                                    We offer customized digital solutions for factories and infrastructure of all sizes, from small-batch to high-volume production. As leaders in Industrial IIOT, digitalization, and automation, we provide innovative and data-driven solutions for manufacturing and commercial sectors. 
-                                </p>
-                                <p class="mt-2 " style="line-height: 2;">
-                                    Our offerings optimize operations, enhance connectivity, and boost productivity. With a focus on IIOT platforms, digitalization, and automation, we ensure real-time monitoring and operational excellence. Trust our seasoned experts to drive your business into the digital era.
+                                    Gadgeon are specialists in the custom design, supply and installation of audio-visual, home automation and integrated electronic systems. We enable you to access and control electronic devices in your home, office and any other properties from a mobile or internet accessible device from anywhere in the world.
                                 </p>
                             </div>
                         </div>

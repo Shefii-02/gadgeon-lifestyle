@@ -30,7 +30,7 @@ Route::get('integrated-automation', function () {
     $title = "Integrated Automation";
     return view('integrated-automation',compact('title'));
 });
-Route::get('lighting-control', function () {
+Route::get('smart-lighting-control-with-gadgeon', function () {
     $title = "Lighting Control";
     return view('lighting-control',compact('title'));
 });
@@ -38,7 +38,7 @@ Route::get('bespoke-audio-visual', function () {
     $title = "Bespoke Audio Visual";
     return view('bespoke-audio-visual',compact('title'));
 });
-Route::get('home-cinema', function () {
+Route::get('home-cinema-excellence-with-gadgeon', function () {
     $title = "Home Cinema";
     return view('home-cinema',compact('title'));
 });
@@ -49,6 +49,12 @@ Route::get('services-amc-for-home-automation', function () {
 });
 
 
+
+
+Route::get('about-us', function () {
+    $title = "About us";
+    return view('about-us',compact('title'));
+});
 
 
 Route::get('contact-us', function () {

@@ -111,7 +111,16 @@
                 transform: rotate(360deg);
             }
         }
+
+        p.inner-para {
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 36px;
+
+            color: #7B7B7B;
+        }
     </style>
+    @yield('styles')
 </head>
 
 <body>
@@ -191,7 +200,7 @@
                                             </a></li>
                                         <li class="m-2 border-bottom"><a title="Commercial Solar Solutions"
                                                 class="text-decoration-none text-dark fw-semibold menu-txt"
-                                                href="{{ url('lighting-control') }}">
+                                                href="{{ url('smart-lighting-control-with-gadgeon') }}">
                                                 Lighting Control
                                             </a></li>
                                         <li class="m-2 border-bottom"><a title="Solar Project Development"
@@ -201,7 +210,7 @@
                                             </a></li>
                                         <li class="m-2 border-bottom"><a title="Solar Maintenance &amp; Support"
                                                 class="text-decoration-none text-dark fw-semibold menu-txt"
-                                                href="{{ url('home-cinema') }}">
+                                                href="{{ url('home-cinema-excellence-with-gadgeon') }}">
                                                 Home Cinema</a></li>
 
 
@@ -239,18 +248,18 @@
                                 </li>
 
                                 <li class=" mb-4 {{ $title == 'About Us' ? 'active' : '' }}">
-                                    <a title="About Us" href="/about-us"
+                                    <a title="About Us" href="{{ url('services-amc-for-home-automation') }}"
                                         class="text-decoration-none text-dark fw-semibold menu-txt">Services & AMC</a>
                                 </li>
 
 
                                 <li class=" mb-4 {{ $title == 'About Us' ? 'active' : '' }}">
-                                    <a title="About Us" href="/about-us"
+                                    <a title="About Us" href="{{ url("about-us") }}"
                                         class="text-decoration-none text-dark fw-semibold menu-txt">About Us</a>
                                 </li>
 
                                 <li class=" mb-4 {{ $title == 'Contact Us' ? 'active' : '' }}">
-                                    <a title="Contact Us" href="/contact-us"
+                                    <a title="Contact Us" href="{{ url('contact-us') }}"
                                         class="text-decoration-none text-dark fw-semibold menu-txt">Contact Us</a>
                                 </li>
                             </ul>
