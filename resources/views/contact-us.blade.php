@@ -53,34 +53,60 @@
                     </div>
                     <div class="row">
                         <div class="col-lg-4  mb-3">
-                            <div class="d-flex justify-content-center flex-column align-items-center border p-4">
-                                <i class="bi bi-house fs-1"></i>
-                                <span class="my-3 h5">Head Quarter</span>
-                                <span class="text-muted text-center" style="line-height: 1.8;">
-                                    VI405/1,FathimaTower, MaleppallyRoad,<br>
-                                    Thrikkakara PO, Kochi, Kerala -682021, India.
+                            <div class="d-flex justify-content-center flex-column align-items-center border p-4 h-100">
+                                <i class="bi bi-house-check fs-1"></i>
+                                <span class="my-3 h5">Corporate Office</span>
+                                <span class="text-muted text-center text-capitalize">
+                                    <h6 style="line-height: 1.8;">
+                                        <a href="https://maps.app.goo.gl/sNTwwWBANYwt7VcB6" class="text-dark">
+                                            Gadgeon Lifestyle Pvt. LTD<br>
+                                            VI 405/E1, Fathima Tower, Thrikkakara PO, Kakkanad, Kochi – 682021, Kerala,
+                                            India.
+                                        </a><br>
+                                        <a href="+914842903000">+91 484 290 30 00  </a>/
+                                        <a href="+919995325348">+91 999 532 53 48 </a>/
+                                        <a href="+919562411333">+91 956 241 13 33 </a>
+                                       
+                                    </h6>
                                 </span>
                             </div>
                         </div>
                         <div class="col-lg-4  mb-3">
-                            <div class="d-flex justify-content-center flex-column align-items-center border p-4">
-                                <i class="bi bi-envelope fs-1"></i>
-                                <span class="my-3 h5">Mailing Address</span>
-                                <span class="text-muted text-center" style="line-height: 1.8;">
-                                    smartindustry@gadgeon.com
-                                    <br><br><br></span>
+                            <div class="d-flex justify-content-center flex-column align-items-center border p-4 h-100">
+                                <i class="bi bi-houses fs-1"></i>
+
+                                <span class="my-3 h5">MIDDLE EAST</span>
+                                <span class="text-muted text-center text-capitalize">
+
+                                    <h6 style="line-height: 1.8;">
+                                        <a href="https://maps.app.goo.gl/sNTwwWBANYwt7VcB6" class="text-dark">
+                                            Gadgeon Middle East.<br>
+                                            DSO-THUB-1-D-OFF-121,THUB,Dubai Silicon Oasis, UAE
+                                            <br>
+                                            <a href="+971528370353">+971 52 83 70 353</a>
+                                        </a>
+                                    </h6>
+                                </span>
                             </div>
                         </div>
                         <div class="col-lg-4  mb-3">
-                            <div class="d-flex justify-content-center flex-column align-items-center border p-4">
-                                <i class="bi bi-telephone fs-1"></i>
-                                <span class="my-3 h5">Business Talk</span>
+                            <div class="d-flex justify-content-center flex-column align-items-center border p-4 h-100">
+                                <i class="bi bi-house fs-1"></i>
+                                <span class="my-3 h5">Regional Office</span>
                                 <span class="text-muted text-center" style="line-height: 1.8;">
-                                    +91 8138 922 466<br>
-                                    +91 7736 596 888<br>
-                                    +91 8138 922 866</span>
+                                    <h6 style="line-height: 1.8;">
+                                        <a href="https://maps.app.goo.gl/sNTwwWBANYwt7VcB6" class="text-dark">
+                                            Gadgeon Systems Inc.<br>
+                                            881 Yosemite Way, Milpitas, CA 95035, USA<br>
+                                           <br>
+                                           <a href="+14086212570">+1-408-621-2570</a>
+                                           
+                                        </a>
+                                    </h6>
+                                </span>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>

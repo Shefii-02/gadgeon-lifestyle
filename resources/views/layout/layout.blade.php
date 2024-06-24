@@ -119,6 +119,9 @@
 
             color: #7B7B7B;
         }
+        .footer-copyright-wrapper small {
+            font-size: 15px;
+        }
     </style>
     @yield('styles')
 </head>
@@ -263,8 +266,8 @@
                                         class="text-decoration-none text-dark fw-semibold menu-txt">Contact Us</a>
                                 </li>
                             </ul>
-                            <h6 class="mt-5"><a href="mailto:smartindustry@gadgeon.com"
-                                    class="text-dark">smartindustry@gadgeon.com</a> </h6>
+                            <h6 class="mt-5"><a href="mailto:homeautomation@gadgeon.com"
+                                    class="text-dark">homeautomation@gadgeon.com</a> </h6>
                             <h6><a href="tel:++918138922466" class="text-dark mt-2">+91 8138 922 466</a></h6>
                             <h6><a href="tel:++917736596888" class="text-dark mt-2">+91 7736 596 888</a></h6>
                             <h6><a href="tel:++918138922866" class="text-dark mt-2">+91 8138 922 866</a></h6>
@@ -358,7 +361,7 @@
                 <div class="row">
                     <div class="col">
                         <div class="footer-copyright-wrapper text-center text-dark py-2">
-                            <small> Copyright © 2024 Gadgeon - Lifestyle.All rights reserved.</small>
+                            <small> Copyright © 2024 Gadgeon - Lifestyle.All rights reserved. <a class="" href="https://www.paarva.com" target="_new">Powered by Paarva</a></small>
                         </div>
                     </div>
                 </div>

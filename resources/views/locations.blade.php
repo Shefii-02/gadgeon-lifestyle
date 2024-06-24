@@ -28,28 +28,29 @@
                                         <div class="">
                                             <ul class="d-flex m-0 p-0 text-center">
                                                 <li class="small">
-                                                    <a href="tel:+918138922466"> <span class="text-light"> 
-                                                        +91 8138 922 466</span></a>
+                                                    
+                                                    <a href="tel:+914842903000"> <span class="text-light"> 
+                                                        +91 484 290 30 00</span></a>
                                                 </li>
                                                 <li class="small">
-                                                    <a href="tel:+918138922466"> <span class="text-light">/</span>
+                                                    <a href="tel:+914842903000"> <span class="text-light">/</span>
                                                     </a>
                                                 </li>
                                                 <li class="small">
-                                                    <a href="tel:+917736596888"> <span class="text-light">+91 7736 596 888</span></a>
+                                                    <a href="tel:+919995325348"> <span class="text-light">+91 999 532 53 48</span></a>
                                                 </li>
                                                 <li class="small">
-                                                    <a href="tel:+917736596888"><span
+                                                    <a href="tel:+919995325348"><span
                                                             class="text-light">/</span></a>
                                                 </li>
                                                 <li class="small">
-                                                    <a href="tel:+918138922866"> <span class="text-light">+91 8138 922 866</span></a>
+                                                    <a href="tel:+919562411333"> <span class="text-light">+91 956 241 13 33</span></a>
                                                 </li>
                                             </ul>
                                             <ul class="d-flex m-0 p-0 text-center mt-2">
                                                 <li class="small">
-                                                    <a href="mailto:smartindustry@gadgeon.com"> <span class="text-light"> 
-                                                        smartindustry@gadgeon.com</span></a>
+                                                    <a href="mailto:homeautomation@gadgeon.com"> <span class="text-light"> 
+                                                        homeautomation@gadgeon.com</span></a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -70,7 +71,7 @@
                                     <div class="mb-4">
                                         <div class="-container">
                                             <h4 class="text-sm-center text-lg-start text-center">
-                                                GADGEON SMART SYSTEMS PVT. LTD.
+                                                Gadgeon Lifestyle Private Limited
                                             </h4>
                                         </div>
                                     </div>
@@ -122,7 +123,7 @@
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                                <h6>Gadgeon Smart Systems Private Limited</h6>
+                                                                <h6>Gadgeon Lifestyle Private Limited</h6>
                                                             </div>
                                                         </div>
     
