@@ -169,7 +169,7 @@
 
     <section class="">
         <div class="container-fluid">
-            <iframe loading="lazy" width="100%" height="600px" src="https://maps.google.com/maps?q=Gadgeon%20Middle%20East%20FZE%20Office%20121%2C%20Techno%20Hub%201%2C%20DTEC%20-%20Dubai%20Silicon%20Oasis%20-%20Dubai%20-%20United%20Arab%20Emirates&amp;t=m&amp;z=15&amp;output=embed&amp;iwloc=near" title="Gadgeon Middle East FZE Office 121, Techno Hub 1, DTEC - Dubai Silicon Oasis - Dubai - United Arab Emirates" aria-label="Gadgeon Middle East FZE Office 121, Techno Hub 1, DTEC - Dubai Silicon Oasis - Dubai - United Arab Emirates"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1113.3808546925145!2d76.33754018224651!3d10.027737884221906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTDCsDAxJzQxLjYiTiA3NsKwMjAnMTUuMyJF!5e0!3m2!1sen!2sin!4v1719222799234!5m2!1sen!2sin" width="100%" height="600px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </section>
     <!-- global Section -->
